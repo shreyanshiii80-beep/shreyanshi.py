@@ -1,3 +1,17 @@
+amount=int(input("enter a amount"))
+if(amount>=500):
+    note_500 = amount//500;
+    amount= amount%500
+    print("500=",note_500)
+else:
+    print("500=0")
+    
+if(amount>=200):
+    print("200=",amount//200)
+    amount= amount%200
+else:
+    print("200=0")
+    
 if(amount>=100):
     print("100=",amount//100)
     amount=amount%100
@@ -27,4 +41,3 @@ if(amount>=5):
     amount= amount%5
 else:
     print("5=0")
- 

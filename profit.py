@@ -1,10 +1,10 @@
-sp = 500
-cp = 800
-profit = sp - cp
-loss = cp - sp
-if(profit == loss):
+sp = 800
+cp = 500
+if(cp == sp):
     print("No Profit")
-elif(profit > loss):
-    print("Profit : ",profit)
+elif (sp > cp):
+    profit = sp - cp
+    print("Profit : ", profit)
 else:
-    ("loss : ",loss)
+    loss = cp - sp
+    ("loss : ", loss)
